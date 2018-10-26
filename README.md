@@ -1,17 +1,19 @@
 # spark-alchemy
 
-Spark Alchemy is a collection of open-source Spark tools & frameworks that have made the data engineering and 
+[![Download](https://api.bintray.com/packages/swoop-inc/maven/spark-alchemy/images/download.svg)](https://bintray.com/swoop-inc/maven/spark-alchemy/_latestVersion)
+
+Spark Alchemy is a collection of open-source Spark tools & frameworks that have made the data engineering and
 data science teams at [Swoop](https://www.swoop.com) highly productive in our demanding petabyte-scale environment
 with rich data (thousands of columns).
 
-We are preparing to release `spark-alchemy`. Click Watch above to be notified when we do. 
+We are preparing to release `spark-alchemy`. Click Watch above to be notified when we do.
 
 Here is a preview of what we'd like to include here:
 
-- Configuration Addressable Production (CAP), Automatic Lifecycle Management (ALM) and Just-in-time Dependency Resolution 
+- Configuration Addressable Production (CAP), Automatic Lifecycle Management (ALM) and Just-in-time Dependency Resolution
 (JDR) as outlined in our Spark+AI Summit talk [Unafraid of Change: Optimizing ETL, ML, and AI in Fast-Paced Environments](https://databricks.com/session/unafraid-of-change-optimizing-etl-ml-ai-in-fast-paced-environments).
 
-- Our extensive set of [HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog) (HLL) functions that allow the saving of HLL sketches as binary columns for fast 
+- Our extensive set of [HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog) (HLL) functions that allow the saving of HLL sketches as binary columns for fast
 reaggregation as well as HLL interoperability with Postgres. (Spark has an HLL implementation but does not expose the binary HLL sketches,
 which makes its usefulness rather limited.)
 
