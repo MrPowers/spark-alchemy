@@ -35,10 +35,10 @@ lazy val test = (project in file("alchemy-test"))
     )
   )
 
-enablePlugins(MicrositesPlugin)
-enablePlugins(SiteScaladocPlugin)
 enablePlugins(BuildInfoPlugin)
 enablePlugins(GitVersioning, GitBranchPrompt)
+enablePlugins(MicrositesPlugin)
+enablePlugins(SiteScaladocPlugin)
 enablePlugins(TutPlugin)
 
 // Speed up dependency resolution (experimental)
