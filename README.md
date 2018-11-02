@@ -6,7 +6,19 @@ Spark Alchemy is a collection of open-source Spark tools & frameworks that have 
 data science teams at [Swoop](https://www.swoop.com) highly productive in our demanding petabyte-scale environment
 with rich data (thousands of columns).
 
-We are preparing to release `spark-alchemy`. Click Watch above to be notified when we do.
+## Installation
+
+Just add the following to your `libraryDependencies` in SBT:
+
+```scala
+resolvers += Resolver.bintrayRepo("swoop-inc", "maven")
+
+libraryDependencies += "com.swoop" %% "spark-alchemy" % "<version>"
+```
+
+You can find all released versions [here](https://github.com/swoop-inc/spark-alchemy/releases).
+
+## Details
 
 Here is a preview of what we'd like to include here:
 
@@ -18,8 +30,6 @@ reaggregation as well as HLL interoperability with Postgres. (Spark has an HLL i
 which makes its usefulness rather limited.)
 
 - Hundreds of productivity-enhancing extensions to the core user-level data types: `Column`, `Dataset`, `SparkSession`, etc.
-
-
 
 - Data discovery and cleansing tools we use to ingest and clean up large amounts of dirty data from third parties.
 
