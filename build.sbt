@@ -8,7 +8,7 @@ ThisBuild / javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
 
-val sparkVersion = "2.3.1"
+val sparkVersion = "2.4.4"
 
 // https://bintray.com/swoop-inc/maven
 resolvers += Resolver.bintrayRepo("swoop-inc", "maven")
